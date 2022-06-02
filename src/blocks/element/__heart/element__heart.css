@@ -1,0 +1,25 @@
+.element__heart {
+    margin-right: 15px;
+    padding: 0;
+    width: 40px;
+    height: 40px;
+    border: none;
+    align-items: center;
+    background: url(../../../images/heart_disabled.svg) no-repeat transparent;
+    background-size: contain;
+    cursor: pointer;
+}
+
+.element__heart:hover {
+    opacity: 0.5;
+}
+
+.element__heart:focus {
+    outline: none;
+    opacity: 1;
+    }
+
+.element__heart:active {
+    background: url(../../../images/heart_anabled.svg) no-repeat transparent;
+    background-size: contain;
+}
